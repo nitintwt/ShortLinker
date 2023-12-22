@@ -4,12 +4,12 @@ const output = document.getElementById("output");
 
 function shortUrl (link){
   const longUrl = input.value;
-  fetch (`https://tinyurl.com/api-create.php?url=${encodeURIComponent(longUrl)}`)
+  fetch ("http://mgnet.me/api/create")
      .then(response => {
        return response.json();
      })
      .then(data =>{
-        output.innerHTML=data;
+        output.innerHTML=data.shorturl;
       })
      .catch (error => {
        console.error("error fetching data :" ,error);
