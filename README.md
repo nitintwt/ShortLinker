@@ -11,6 +11,6 @@ This web app allow users to shorten any URL quickly and easily. By leveraging an
 3. API Integration: Utilizes an API to perform the URL shortening process.
 
 #Usage
-1.Input URL: Enter the long URL into the designated input field.
-2.Click Button
-3.Copy Shortened URL: Once the process is complete, copy the shortened URL provided.
+1. Input URL: Enter the long URL into the designated input field.
+2. Click Button
+3. Copy Shortened URL: Once the process is complete, copy the shortened URL provided.
